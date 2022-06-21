@@ -1,0 +1,23 @@
+.comment{
+    background-color: rgb(239, 255, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.a1{
+    display:flex;
+    background-color: rgb(212, 252, 238);
+    padding: 20px;
+}
+.a2{
+    height: 100px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 255, 212);
+
+}
+.a3{
+    width: 500px;
+}

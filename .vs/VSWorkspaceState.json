@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\angular",
+    "\\aspmetcore"
   ],
-  "SelectedNode": "\\C:\\Users\\User\\Source\\Repos\\ForCompanyTest",
   "PreviewInSolutionExplorer": false
 }
