@@ -15,7 +15,6 @@ export class AppComponent implements OnInit {
   myphotoid:any = 1;
   onephoto:any;
   flagPhoto:boolean = true;
-  newcoment:any ="";
   constructor(private service:GetPhoto)
   {
   }
@@ -35,8 +34,6 @@ export class AppComponent implements OnInit {
   onSubmit(form:any){
     console.log(form)
     this.service.Post(this.form.value.text, this.myphotoid).subscribe();
-    this.newcoment += this.form.value.text + document.createElement("</br>").parentElement +" ";
-    
 
   }
  
