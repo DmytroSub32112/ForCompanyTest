@@ -27,6 +27,10 @@ import {HttpClient} from  "@angular/common/http";
    GetComment(id:number){
       return this.http.get("https://localhost:44366/Comment/"+id)
    }
+   DeleteComent(id:number){
+
+      return this.http.delete("https://localhost:44366/RESTapi/"+id)
+   }
 }
  class ForComment{
    constructor(){}

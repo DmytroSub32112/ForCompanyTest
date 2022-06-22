@@ -36,6 +36,9 @@ export class AppComponent implements OnInit {
     this.service.Post(this.form.value.text, this.myphotoid).subscribe();
 
   }
+  onDelete( id:number){
+     this.service.DeleteComent(id).subscribe();
+  }
  
 
 }

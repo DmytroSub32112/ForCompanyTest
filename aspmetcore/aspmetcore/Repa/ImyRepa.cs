@@ -12,5 +12,6 @@ namespace aspmetcore.Repa
         public Photo GetPhoto(int Id);
         public List<Comment> GetComment(int Id);
         public void PostComment(string messege, int Id);
+        public void DeleteComment(int id);
     }
 }

@@ -56,6 +56,12 @@ namespace aspmetcore.Controllers
             var Id = forcomment.id;
             repaMethod.PostComment(text, Id);
         }
+        [HttpDelete("{Id}")]
+        public void DeleteComment(int id)
+        {
+            repaMethod.DeleteComment(id);
+
+        }
 
     }
     public class ForComment

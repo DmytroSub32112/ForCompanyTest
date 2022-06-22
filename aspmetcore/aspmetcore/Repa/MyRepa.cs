@@ -52,5 +52,15 @@ namespace aspmetcore.Repa
 
             }
         }
+        public void DeleteComment(int id)
+        {
+            using(var db =new Context())
+            {
+                var removeComment = db.Comments.Where(c => c.Id == id).FirstOrDefault();
+                db.Comments.Remove(removeComment);
+                db.SaveChanges();
+
+            }
+        }
     }
 }

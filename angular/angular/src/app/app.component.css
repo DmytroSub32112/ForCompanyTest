@@ -3,8 +3,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
     margin: 5px;
+
     
 }
+.m1{display: flex;}
 .a1{
     display:flex;
     background-color: rgb(212, 252, 238);
@@ -20,4 +22,16 @@
 }
 .a3{
     width: 500px;
+}
+.svg{
+    color:blue;
+    padding-left: 1800px;
+    height: 20px;
+
+}
+.svg:hover{
+  color: red;
+  height: 30px;
+  padding-left: 1800px;
+  
 }

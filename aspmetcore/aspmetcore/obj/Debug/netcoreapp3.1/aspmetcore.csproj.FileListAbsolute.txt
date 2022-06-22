@@ -57,4 +57,5 @@ C:\ForCompanyTest\aspmetcore\aspmetcore\obj\Debug\netcoreapp3.1\aspmetcore.Razor
 C:\ForCompanyTest\aspmetcore\aspmetcore\obj\Debug\netcoreapp3.1\aspmetcore.dll
 C:\ForCompanyTest\aspmetcore\aspmetcore\obj\Debug\netcoreapp3.1\aspmetcore.pdb
 C:\ForCompanyTest\aspmetcore\aspmetcore\obj\Debug\netcoreapp3.1\aspmetcore.genruntimeconfig.cache
-C:\ForCompanyTest\aspmetcore\aspmetcore\obj\Debug\netcoreapp3.1\aspmetcore.csproj.CopyComplete
+C:\ForCompanyTest\aspmetcore\aspmetcore\obj\Debug\netcoreapp3.1\staticwebassets\aspmetcore.StaticWebAssets.xml
+C:\ForCompanyTest\aspmetcore\aspmetcore\obj\Debug\netcoreapp3.1\scopedcss\bundle\aspmetcore.styles.css
